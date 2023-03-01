@@ -1,0 +1,554 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.bx {
+    font-size: 19px;
+}
+
+nav {
+    justify-content: space-between;
+    display: flex;
+    margin-top: 20px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-right {
+    margin-right: 60px;
+}
+
+.nav-right ul li {
+    padding-left: 20px;   
+}
+
+.nav-left ul li {
+    padding-right: 40px;
+}
+
+.edge {
+    color: blue;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.sign-in {
+    color: white;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.sign-up {
+    color: grey;
+}
+
+main {
+    width: 100%;
+}
+
+main img {
+    float: right;
+    margin-right: 100px;
+    margin-top: -300px;
+}
+
+main h1 {
+    margin-left: 80px;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.p2 {
+    color: grey;
+    margin-left: 80px;
+    font-size: 20px;
+}
+
+/* Section starts Here */
+
+.hr {
+    background-color: rgb(240, 240, 240);
+    margin-top: 85.7px;
+    padding-bottom: 20px;
+}
+
+.heading {
+    padding-left: 80px;
+    padding-top: 18px;
+}
+.heading h2 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.heading p {
+    color: grey;
+    font-size: 20px;
+}
+
+.flex {
+    display: flex;
+    margin-left: 80px;
+    margin-top: 60px;
+    margin-right: 100px;
+}
+
+.flex h3 {
+    font-size: 23px;
+    width:100%;
+}
+
+.flex p {
+    font-size: 15px;
+    color: grey;
+    width: max-content;
+}
+
+.flex1 {
+    border-radius: 10px;
+    padding: 20px 41px;
+    background-color: white;
+    margin-right: 40px;
+}
+
+.flex2 {
+    border-radius: 10px;
+    padding: 25px 41px;
+    background-color: white; 
+    margin-right: 40px;
+}
+
+.flex3 {
+    border-radius: 10px;
+    padding: 25px 41px;
+    background-color: white;
+    margin-right: 0px;
+}
+
+
+/* Section starts Here */
+
+/* Employee Directory Starts Here */
+
+.directory {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    background-color: #e4e2e2;
+    border-color: #e4e2e2;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.nav2-left {
+    margin-right: 10px;
+}
+
+.nav2-left img {
+    border-radius: 50%;
+    margin-top: 23px;
+    margin-left: 10px;
+}
+
+.nav2-left ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav2-right {
+    margin-left: -30px;
+}
+
+.nav2-right ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav2-right p {
+    font-size: 14px;
+}
+
+.nav2-right img {
+    margin-left: 10px;
+}
+
+/* Employee Directory Ends Here */
+
+/* Employees Starts Here */
+
+.employees {
+    margin-top: 8px;
+    padding-top: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: #e4e2e2;
+}
+
+.shadow {
+    width: 200px;
+    height: 4px;
+    background-color: rgb(182, 178, 178);
+    margin-left: 120px;
+    border-radius: 10px;
+}
+
+.shadows {
+    display: flex;
+}
+
+.shadow2 {
+    width: 52px;
+    height: 5px;
+    background-color: rgb(182, 178, 178);
+    margin-left: 120px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-left: 125px;
+    margin-top: 10px;
+}
+
+.shadow3 {
+    width: 52px;
+    height: 5px;
+    background-color: rgb(182, 178, 178);
+    margin-left: 120px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+.shadow3 p {
+    text-align: center;
+}
+
+.shadow4 {
+    width: 52px;
+    height: 5px;
+    background-color: rgb(182, 178, 178);
+    margin-left: 120px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+.shadow5 {
+    width: 52px;
+    height: 5px;
+    background-color: rgb(182, 178, 178);
+    margin-left: 120px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+.employees p {
+    color: black;
+    margin-left: 121px;
+    margin-bottom: 7px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+/* Employees Ends Here */
+
+/* Pictures Starts Here */
+
+.pictures {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-shrink: 0;
+    padding-bottom: 100px;
+}
+
+.profpic {
+    padding: 10px 10px 20px 10px;
+    background-color: white;
+    margin-left: 15px;
+    border-radius: 2px;
+    height: 100px;
+    width: 85px;
+}
+
+.profpic:hover {
+    transform: scale(1.09);
+    padding: 11px;
+}
+
+.profpic p {
+    margin-left: 11px;
+    font-size: 11.8px;
+    margin-top: 5px;
+    font-weight: 500;
+    margin-right: 7px;
+}
+
+.profpic2 {
+    padding: 10px 10px 20px 10px;
+    background-color: white;
+    margin-left: 15px;
+    border-radius: 2px;
+    height: 100px;
+    width: 85px;
+}
+
+.profpic2:hover {
+    transform: scale(1.09);
+    padding: 11px;
+}
+
+.profpic2 p {
+    margin-left: 3px;
+    font-size: 11.8px;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+.profpic3 {
+    padding: 10px 10px 20px 10px;
+    background-color: white;
+    margin-left: 15px;
+    border-radius: 2px;
+    height: 100px;
+    width: 85px;
+}
+
+.profpic3:hover {
+    transform: scale(1.09);
+    padding: 11px;
+}
+
+.profpic3 p {
+    margin-left: 0px;
+    font-size: 11.8px;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+.profpic4 {
+    padding: 10px 10px 20px 10px;
+    background-color: white;
+    margin-left: 15px;
+    border-radius: 2px;
+    height: 100px;
+    width: 85px;
+}
+
+.profpic4:hover {
+    transform: scale(1.09);
+    padding: 11px;
+}
+
+.profpic4 p {
+    margin-left: 0px;
+    font-size: 11.5px;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+.profpic5 {
+    padding: 10px 10px 20px 10px;
+    background-color: white;
+    margin-left: 15px;
+    border-radius: 2px;
+    height: 100px;
+    width: 85px;
+}
+
+.profpic5:hover {
+    transform: scale(1.09);
+    padding: 11px;
+}
+.profpic5 p {
+    margin-left: 0px;
+    font-size: 11.8px;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+/* Pictures Ends Here */
+
+
+/* Admin and Logistics Starts Here */
+
+.als { 
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.als h1 {
+    font-size: 33px;
+}
+
+.als h3 {
+    font-size: 22px;
+}
+
+.al {
+    margin-top: 42px;
+}
+
+.als ul li {
+    list-style: none;
+}
+
+.als p {
+    color: grey;
+}
+
+/* Admin and Logistics Ends Here */
+
+/* Admin and Logistics Travel Logistics Starts here*/
+
+.directory2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    background-color: #e4e2e2;
+    border-color: grey;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+/* Admin and Logistics Travel Logistics Ends here*/
+
+/* Employee Directory divided sections  starts here*/
+
+.employees {
+    padding-bottom: 30px;
+}
+
+.lines {
+    width: 170px;
+    height: 4px;
+    border-radius: 2px;
+    margin-left: 115px;
+    background-color: rgb(204, 201, 201);
+}
+
+.bold {
+    font-weight: 400;
+}
+
+/* Employee Directory divided sections ends here */
+
+.container {
+    display: flex;
+}
+
+.trequest {
+    padding: 10px 15px 45px 15px;
+    background-color: white;
+    margin-left: 120px;
+    border-radius: 2px;
+    height: 100px;
+    width: 85px;
+}
+
+.trequest p {
+    width: max-content;
+    margin-left: 1px;
+}
+
+/* All the long lines with shadows */
+.lines2 {
+    width: 87px;
+    height: 7px;
+    border-radius: 3px;
+    background-color: rgb(204, 201, 201);
+    margin-left: 1.7px;
+}
+
+.lines3 {
+    width: 100px;
+    height: 7px;
+    border-radius: 3px;
+    background-color: rgb(204, 201, 201);
+    margin-left: -6px;
+    margin-top: 5px;
+}
+/* All the long lines with shadows ends here*/
+
+/* Travel Details div */
+.tdetails {
+    padding: 10px 15px 45px 15px;
+    background-color: white;
+    margin-left:  15px;
+    border-radius: 2px;
+    height: 300px;
+    width: 400px;
+}
+
+.tdetails h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.tdetails h5 {
+    font-size: 13px;
+}
+
+.tdetails p {
+    font-size: 10.5px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+/* lines in the travel section there are 5 of them */
+.linesa {
+    width: 180px;
+    height: 7px;
+    border-radius: 5px;
+    background-color: rgb(226, 224, 224);
+    margin-left: 1.7px;
+}
+
+.linesa2 {
+    width: 160px;
+    height: 7px;
+    border-radius: 5px;
+    background-color: rgb(226, 224, 224);
+    margin-left: 1.7px;
+    margin-top: 10px;
+}
+
+.linesa3 {
+    width: 140px;
+    height: 7px;
+    border-radius: 5px;
+    background-color: rgb(226, 224, 224);
+    margin-left: 1.7px;
+    margin-top: 10px;
+}
+
+.linesa4 {
+    width: 100px;
+    height: 7px;
+    border-radius: 5px;
+    background-color: rgb(226, 224, 224);
+    margin-left: 1.7px;
+    margin-top: 10px;
+}
+/* lines in the travel section there are 5 of them ends here*/
+
+/*         Travel Details div ends         */
